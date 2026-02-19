@@ -4,18 +4,19 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     width: 100%;
     overflow-x: hidden;
     background-color: #F5EDE0 !important;
 }
 
 /* CABEÇALHO E NAVEGAÇÃO*/
-header, 
+header,
 .navbar {
     background-color: #DBC9B2 !important;
     width: 100% !important;
-    min-height: 100px !important; 
+    min-height: 100px !important;
     margin-bottom: 0 !important;
     border: none;
     padding: 0 20px;
@@ -54,13 +55,11 @@ header,
 /* TEXTOS E CONTEÚDO*/
 .container .row {
     align-items: center;
-    padding: 30px 0;
-    justify-content: center !important;
 }
 
 /* Título */
 .col-md-7 h2 {
-    color: #A67B51; 
+    color: #A67B51;
     font-size: 2.8rem;
     font-weight: 600;
     margin-bottom: 25px;
@@ -78,24 +77,24 @@ header,
 /* Imagem lateral */
 .col-md-5 img {
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px #0000001a;
     transition: transform 0.3s ease;
 }
 
 /* BOTÕES */
 
-.btn-primary, 
-.btn-success, 
+.btn-primary,
+.btn-success,
 .btn-custom-pix {
-    background-color: #A67B51 !important; 
+    background-color: #A67B51 !important;
     border-color: #A67B51 !important;
     color: #fff !important;
 }
 
-.btn-primary:hover, 
-.btn-success:hover, 
+.btn-primary:hover,
+.btn-success:hover,
 .btn-custom-pix:hover {
-    background-color: #D9985F !important; 
+    background-color: #D9985F !important;
     border-color: #D9985F !important;
     color: #fff !important;
 }
@@ -109,13 +108,13 @@ header,
 
 .icone-contador {
     font-size: 2.5rem;
-    color: #D9985F; 
+    color: #D9985F;
     margin-bottom: 10px;
     display: block;
 }
 
 .coracao-icone {
-    color: #D9985F; 
+    color: #D9985F;
 }
 
 .numero-contador {
@@ -133,49 +132,20 @@ header,
     text-transform: uppercase;
 }
 
-/*FALE CONOSCO */
-.fale-conosco {
-    background-color: #4A4A4A;
-}
-
-.fale-conosco,
-.fale-conosco h1,
-.fale-conosco span {
-    color: #F5EDE0 !important;
-}
-
-.icone-cor,
-.icone-social {
-    color: #F5EDE0 !important;
-}
-
-.fale-conosco .btn-outline-light:hover {
-    background-color: #A67B51 !important;
-    border-color: #A67B51 !important;
-    color: #fff !important;
-}
-
 /* CARDS (Adote)*/
 .card {
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid #00000020;
     transition: transform 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px #0000001a;
 }
 
 
-/* --- RODAPÉ --- */
-.footer {
-    background-color: #DBC9B2;
-    color: #4A4A4A;
-    text-align: center;
-    padding: 20px;
-}
 
-/* Utilitários sem root */
+/* Utilitários */
 .text-primaria {
     color: #A67B51 !important;
 }
@@ -192,20 +162,28 @@ header,
 /*  Ajustes */
 
 .btn-outline-dark {
-    color: #A67B51 !important;  
+    color: #A67B51 !important;
     border-color: #A67B51 !important;
 }
 
 .btn-outline-dark:hover {
     background-color: #A67B51 !important;
     border-color: #A67B51 !important;
-    color: #fff !important; 
+    color: #fff !important;
 }
 
 .text-secundaria {
-    color: #3e2723 !important; 
+    color: #3e2723 !important;
 }
 
 .list-group-item {
-    border-color: rgba(166, 123, 81, 0.3); 
+    border-color: #a67b514d;
+}
+
+/* --- RODAPÉ --- */
+.footer-site {
+    background-color: #DBC9B2;
+    color: #4A4A4A;
+    text-align: center;
+    padding: 20px;
 }
